@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://Nickisdope.github.io/sitemap.xml
