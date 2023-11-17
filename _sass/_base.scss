@@ -349,12 +349,13 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: match-parent;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
+      margin-right: 10px;
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -369,9 +370,11 @@ blockquote {
   }
 
   .contact-note {
+    margin-bottom: 20px;
     font-size: 0.8rem;
   }
 }
+
 
 .wechat-modal {
   display: none;
@@ -664,7 +667,7 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 500px;
       }
 
       .abbr {
