@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  # - torvalds
+  # - alshedivat
+  - Nickisdope
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  # - alshedivat/al-folio
+  # - twbs/bootstrap
+  # - jekyll/jekyll
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - jpswalsh/academicons
+  # - mathjax/MathJax
+  - Nickisdope/Learning-based_Binocular_Gaze_Estimation
