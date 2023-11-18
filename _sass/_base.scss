@@ -406,6 +406,13 @@ blockquote {
   }
 }
 
+a {
+  strong {
+    &:hover {
+      color: var(--global-theme-color); 
+    }
+  }
+}
 
 // Footer
 footer.fixed-bottom {
