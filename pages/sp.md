@@ -71,7 +71,7 @@ Scene understanding is important for intelligent agents to plan context-sensitiv
 
 ## Training Scheme
  
-<img src="/assets/img/SP/training.png" width="700px">
+<img src="/assets/img/SP/Training.png" width="700px">
 
 **Mixed Batch Training and Novel Scene Generalization.** 
 
