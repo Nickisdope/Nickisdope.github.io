@@ -97,11 +97,18 @@ After using our training scheme, the network optimized well for both scenes, as 
 <img src="/assets/img/SP/10scenes.png" width="700px">
 After solving the overfitting problem, we jointly trained our network for 10 scenes. In the figure shown above, we can observe that the network has the capacity to fit 10 scenes with their colors and structures well-preserved.
 
-### Generalize to novel scene
+### Generalize to Novel Scene
 
 <img src="/assets/img/SP/generalization.png" width="700px">
 
 We fixed the weights of pretrained MLP on 10 scenes and then optimized only for the parameters of a new hash encoding on a novel scene. We can observe the rendering results on the first row, which are visually comparable to those optimizing for the whole network. Besides, we also ablate the pretraining phase by replacing the pre-trained MLP with an MLP with randomized weights and rendering the same set of images on a novel scene, which is shown on the bottom row. In this case, the results are over-smoothed and fail to catch the fine details of the novel scene, and only the high-level structure and color distribution are preserved. This shows the necessity of pretraining MLP to generalize to novel scenes.
+
+### Naive Scene Editing
+
+<img src="/assets/img/SP/naive_scene_edit.png" width="700px">
+
+We tried to move the hydrant next to the desk by composing feature vectors corresponding to the hydrant with the feature vectors in the bottom right corner of the Apple computer scene. Though the composition is flawed with artifacts, we can still observe that the hydrant somehow blends into the Apple computer scene in the upper part, thus with a more sophisticated way of selecting and combining the feature vectors, the scene editing quality is likely to be improved. 
+
 
 
 
